@@ -4,7 +4,3 @@ if (a+b>15)
 {
 	Console.WriteLine("the answer is greater than 15");
 }
-else
-{
-	Console.WriteLine("the answer is not greater than 15");
-}
