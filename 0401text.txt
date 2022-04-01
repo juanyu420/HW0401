@@ -1,6 +1,14 @@
-int a = 5;
-int b = 3;
-if (a+b>15)
+int a = 6;
+int b = 9;
+if (a+b<11)
 {
-	Console.WriteLine("the answer is greater than 15");
+	Console.WriteLine("the answer is greater than 10");
+}
+else if(a+b>8)
+{
+    Console.WriteLine("the answer is between than 20&15"); 
+}
+else
+{
+	Console.WriteLine("the answer is not greater than 10");
 }
